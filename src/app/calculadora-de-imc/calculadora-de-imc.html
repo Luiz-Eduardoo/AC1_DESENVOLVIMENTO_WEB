@@ -1,0 +1,5 @@
+<input [(ngModel)]="Peso" type="number">
+<input [(ngModel)]="Altura" type="number">
+<button (click)="calcularIMC()">Calcular IMC</button>
+
+<p *ngIf="resultado">{{ resultado }}</p>
